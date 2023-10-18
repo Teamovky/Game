@@ -329,6 +329,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TerrainTools.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TerrainTools.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
@@ -352,6 +354,16 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Playermovement.cs"
 "Assets/Scripts/Playerrotation.cs"
+"Assets/Tom's Terrain Tools/2DTools/Scripts/Camera2DFollow.cs"
+"Assets/Tom's Terrain Tools/2DTools/Scripts/CircleMoverSample.cs"
+"Assets/Tom's Terrain Tools/Example Data/Scripts/PlayerHoverController.cs"
+"Assets/Tom's Terrain Tools/Example Data/Scripts/SimpleSmoothMouseLook.cs"
+"Assets/Tom's Terrain Tools/Scripts/ForceGrassDistanceInEditor.cs"
+"Assets/Tom's Terrain Tools/Scripts/KeepOnSurface.cs"
+"Assets/Tom's Terrain Tools/Scripts/PlaceOnSurfaceAtStart.cs"
+"Assets/Tom's Terrain Tools/Scripts/SpawnInArea.cs"
+"Assets/Tom's Terrain Tools/Scripts/TerrainQualitySettings.cs"
+"Assets/Tom's Terrain Tools/Scripts/TreeExplosion.cs"
 -langversion:9.0
 
 /deterministic
