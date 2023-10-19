@@ -5,12 +5,10 @@ using UnityEngine;
 public class Playermovement : MonoBehaviour
 {
     //natáčení po x, z o 7.5 stupně
-    public float speed = 5f;
+    public float speed = .01f;
     private float right_left_Input;
     private float forward_backward_Input;
     private bool fall_Input;
-    private bool respawn = false;
-
     private Vector2 tilt;
 
     private Vector2 turn; //.x = x // .y = z
@@ -33,7 +31,7 @@ public class Playermovement : MonoBehaviour
         forward_backward_Input = Input.GetAxis("Horizontal");
         fall_Input = Input.GetKey(KeyCode.LeftShift);
         jump_Input = Input.GetKey(KeyCode.Space);
-        Debug.Log(right_left_Input + " " + forward_backward_Input + " " + tilt.x + " " + tilt.y);
+        Debug.Log("R+L " + right_left_Input + " F+B " + forward_backward_Input + " Tilt Y " + tilt.x + " Tilt X " + tilt.y);
         if(right_left_Input > 0)
         {
             tilt.x = -7.5f;
@@ -60,12 +58,12 @@ public class Playermovement : MonoBehaviour
             tilt.y = 0f;
         }
         transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(tilt.y,turn.x,tilt.x),(timeCount*0.01f));
-        transform.Translate(Vector3.right * Time.deltaTime * speed * right_left_Input);
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * -forward_backward_Input);
-
+        transform.Translate(Vector3.right * timeCount * speed * right_left_Input);
+        transform.Translate(Vector3.forward * timeCount * speed * -forward_backward_Input);
+        Debug.Log(timeCount);
         if(fall_Input)
         {
-            transform.Translate(Vector3.up * Time.deltaTime * -speed);
+            transform.Translate(Vector3.up * timeCount * -speed);
         }
 
         turn.x += (Input.GetAxis("Mouse X") * mouse_sens);
@@ -73,15 +71,9 @@ public class Playermovement : MonoBehaviour
  
         if(jump_Input)
         {
-            transform.Translate(Vector3.up * Time.deltaTime * speed);
+            transform.Translate(Vector3.up * timeCount * speed);
         }
 
-        respawn = Input.GetKey(KeyCode.R);
-
-        if(respawn)
-        {
-            transform.position = new Vector3(0,1,0);
-        }
         timeCount = timeCount + Time.deltaTime;
     }
 }
