@@ -1,0 +1,420 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'cs' Physical Memory: 7798 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\uni\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Marek/skola/PAD/tymovkos/Game/Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56261
+Successfully changed project path to: C:/Users/Marek/skola/PAD/tymovkos/Game/Game
+C:/Users/Marek/skola/PAD/tymovkos/Game/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12776] Host "[IP] 192.168.30.1 [Port] 0 [Flags] 2 [Guid] 350006273 [EditorId] 350006273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5APH592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12776] Host "[IP] 192.168.30.1 [Port] 0 [Flags] 2 [Guid] 350006273 [EditorId] 350006273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5APH592) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 335.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path D:/uni/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Marek/skola/PAD/tymovkos/Game/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     3899 MB
+    Driver:   27.20.100.8854
+Initialize mono
+Mono path[0] = 'D:/uni/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/uni/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/uni/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/uni/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.024391 seconds.
+- Loaded All Assemblies, in  7.825 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.891 seconds
+Domain Reload Profiling: 9716ms
+	BeginReloadAssembly (803ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (1008ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (580ms)
+	LoadAllAssembliesAndSetupDomain (5370ms)
+		LoadAssemblies (794ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5363ms)
+			TypeCache.Refresh (5353ms)
+				TypeCache.ScanAssembly (3908ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1893ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (80ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (1074ms)
+			ProcessInitializeOnLoadMethodAttributes (290ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.310 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.339 seconds
+Domain Reload Profiling: 9636ms
+	BeginReloadAssembly (902ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (186ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (203ms)
+	LoadAllAssembliesAndSetupDomain (5941ms)
+		LoadAssemblies (5516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (954ms)
+			TypeCache.Refresh (875ms)
+				TypeCache.ScanAssembly (810ms)
+			ScanForSourceGeneratedMonoScriptInfo (66ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (1462ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 9.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3533.
+Memory consumption went from 113.9 MB to 113.9 MB.
+Total: 23.091600 ms (FindLiveObjects: 0.541500 ms CreateObjectMapping: 0.427400 ms MarkObjects: 21.089700 ms  DeleteObjects: 1.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33014.674426 seconds.
+  path: Assets/Models
+  artifactKey: Guid(c66a5361657d8418d88253ec0cbc8164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(c66a5361657d8418d88253ec0cbc8164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21c98ee38740b333ba84942b94d3274') in 0.145304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 243.542980 seconds.
+  path: Assets/Models/fpvDron
+  artifactKey: Guid(4455a01b6228e9740a78005a344d7ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron using Guid(4455a01b6228e9740a78005a344d7ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0ea1dc9293974fb5ab58495f53bc37') in 0.001375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.118833 seconds.
+  path: Assets/Models/fpvDron/FPVdron.fbx
+  artifactKey: Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron.fbx using Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38500ac8d2c51496f8785a7ca4271d09') in 3.514153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 118.909819 seconds.
+  path: Assets/Models/fpvDron/FPVdron.fbx
+  artifactKey: Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron.fbx using Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79c6d7b5698aecbe49356651a003ec7') in 0.429807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 171.707322 seconds.
+  path: Assets/Models/fpvDron/FPVdron.fbx
+  artifactKey: Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron.fbx using Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c8ff9cd58e50028a80ba7f5a2551c4') in 0.637721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 33.001294 seconds.
+  path: Assets/Materials/_.mat
+  artifactKey: Guid(d6e6d80d04b4f4623a1428508bd6dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/_.mat using Guid(d6e6d80d04b4f4623a1428508bd6dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33133f3ce905380501a6a28614283588') in 0.027674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 127.891046 seconds.
+  path: Assets/Models/fpvDron/FPVdron.fbx
+  artifactKey: Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron.fbx using Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c492c6e442e99b02dd45a90541b7c8') in 0.197037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1019.784623 seconds.
+  path: Assets/Models/fpvDron/FPVdron.fbx
+  artifactKey: Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron.fbx using Guid(3635314b1bd9b7141917c68226a7427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5fb7ed3fc36c963877e30d6c0b3b70') in 0.942916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.500268 seconds.
+  path: Assets/Models/fpvDron/cerven.png
+  artifactKey: Guid(d16ee64e4ff34ce44994f36cb21b81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/cerven.png using Guid(d16ee64e4ff34ce44994f36cb21b81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be15afa4763adb4e98bf530f35921d9f') in 0.340473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 634.059494 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(54a1bbe6e6ea74ff984069192abb0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(54a1bbe6e6ea74ff984069192abb0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57cac86e61e885e64900feb167b7e50') in 1.887594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.582758 seconds.
+  path: Assets/Scripts/Playermovement.cs
+  artifactKey: Guid(ebceedbb8534348269cae6d92fa22797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Playermovement.cs using Guid(ebceedbb8534348269cae6d92fa22797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebec04696ab4d7c591631683f6ef750') in 0.011563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.121381 seconds.
+  path: Assets/Scripts/Playerrotation.cs
+  artifactKey: Guid(32b687064c23845528ddda59cb2812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Playerrotation.cs using Guid(32b687064c23845528ddda59cb2812ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4df7c805cf765913e4db326273f0e1') in 0.002567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2574.020742 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(80f610c49de9244969a1ba5bc1e57a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(80f610c49de9244969a1ba5bc1e57a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0532ef41c03777b5e129c5e1f30dab') in 1.121527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.632798 seconds.
+  path: Assets/Models/fpvDron/Materials
+  artifactKey: Guid(bbb01095639aef94daa49cd143072061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/Materials using Guid(bbb01095639aef94daa49cd143072061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cd326722added0a6846dd437b6f820') in 0.007075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.251769 seconds.
+  path: Assets/Models/fpvDron/Materials/carbon.001.mat
+  artifactKey: Guid(a57f3880ec6147f43aab0978231b9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/Materials/carbon.001.mat using Guid(a57f3880ec6147f43aab0978231b9705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961fd3ede9cd871784115e113db22b2') in 0.723585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Models/fpvDron/Materials/konektor.mat
+  artifactKey: Guid(a2e42c4686fc9ba40873bfa230d05a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/Materials/konektor.mat using Guid(a2e42c4686fc9ba40873bfa230d05a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2231cd7d1301b32b224f61c38ffc1aef') in 0.081869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/fpvDron/Materials/kamera2.mat
+  artifactKey: Guid(71ee027a5d9830243971c12d0513b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/Materials/kamera2.mat using Guid(71ee027a5d9830243971c12d0513b015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3c0ac34af9ea0eaa22232247bcb43b') in 0.086562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.415621 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b62e3c21d75807fb4571750b05b5e48') in 0.617440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 4.376895 seconds.
+  path: Assets/Models/fpvDron/bater.png
+  artifactKey: Guid(7ee5c8a25e680094a90af87073f48aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/bater.png using Guid(7ee5c8a25e680094a90af87073f48aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f33a1090c725e31ab6f3718924cb73a') in 0.564068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.337922 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edf90b41054679e1445f6e271fe6800') in 0.541043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.437946 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e347e6fc0630f03c21311b42c38e9ba6') in 0.700486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 3.161214 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb47e26f1dee1eba83aca2e044451c') in 0.375703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.140522 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d3d08a40064ef7aa6daaf72d5e9e00') in 0.476166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 2330.416342 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68026e2029edd14e6bc9c22e2f87a191') in 1.241604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 108.575890 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a92de8aa89477db81b6c0fb4305edc') in 0.501898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.883994 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78aec1fd1f31cfc9fa333611609361') in 0.614988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.581892 seconds.
+  path: Assets/Models/fpvDron/carb.png
+  artifactKey: Guid(4e9594bc95531bf49b1b06e615493ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/carb.png using Guid(4e9594bc95531bf49b1b06e615493ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd14bdd8b5e43a2b5f885ba197a3c6') in 0.860472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.963814 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185721c9836434ea5d0adea19a13505') in 0.430436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 1.524123 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d811c1e73204406867208253c13514') in 0.655861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 1.211173 seconds.
+  path: Assets/Models/fpvDron/FPVdron2.fbx
+  artifactKey: Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fpvDron/FPVdron2.fbx using Guid(7ce8287c30fa9ca47b057101df499998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4d98c9a57a7ba29ca0787d8ed1da98') in 0.606143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
