@@ -5,7 +5,7 @@ using UnityEngine;
 public class Playermovement : MonoBehaviour
 {
     //natáčení po x, z o 7.5 stupně
-    public float speed = .01f;
+    public float speed = 0.1f;
     private float right_left_Input;
     private float forward_backward_Input;
     private bool fall_Input;
