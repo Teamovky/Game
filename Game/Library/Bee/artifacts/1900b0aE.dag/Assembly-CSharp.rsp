@@ -362,6 +362,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Playermovement.cs"
 "Assets/Scripts/Playerrotation.cs"
+"Assets/Scripts/WaypointMover.cs"
+"Assets/Scripts/Waypoints.cs"
 "Assets/Tom's Terrain Tools/2DTools/Scripts/Camera2DFollow.cs"
 "Assets/Tom's Terrain Tools/2DTools/Scripts/CircleMoverSample.cs"
 "Assets/Tom's Terrain Tools/Example Data/Scripts/PlayerHoverController.cs"
