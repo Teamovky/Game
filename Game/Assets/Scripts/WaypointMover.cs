@@ -54,6 +54,6 @@ public class WaypointMover : MonoBehaviour
 
         directionToWaypoint = (currentWaypoint.position - transform.position).normalized;
         roationGoal = Quaternion.LookRotation(directionToWaypoint);
-        transform.rotation = Quaternion.Slerp(transform.rotation, roationGoal, rotateSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, roationGoal * Quaternion.Euler(-90, 0, 0), rotateSpeed * Time.deltaTime);
     }
 }
