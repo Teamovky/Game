@@ -17,7 +17,7 @@ public class Playermovement : MonoBehaviour
     private float timeCount = 0.0f;
     public float speed = .01f;
 
-    protected float thrust = 0f;
+    public float thrust = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -85,7 +85,7 @@ public class Playermovement : MonoBehaviour
             player.AddForce(Vector3.up * thrust);
         }
 
-        Debug.Log(thrust);
+        //Debug.Log(thrust);
 
         timeCount = timeCount + Time.deltaTime;
     }

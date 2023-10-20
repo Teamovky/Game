@@ -46,6 +46,7 @@
      <Compile Include="Assets/Scripts/Playermovement.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Example Data/Scripts/SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/2DTools/Scripts/Camera2DFollow.cs" />
+     <Compile Include="Assets/Scripts/Trottle_UI.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Example Data/Scripts/PlayerHoverController.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/PlaceOnSurfaceAtStart.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/2DTools/Scripts/CircleMoverSample.cs" />
