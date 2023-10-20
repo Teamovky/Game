@@ -62,7 +62,7 @@ public class Playermovement : MonoBehaviour
             tilt.y = 0f;
         }
 
-        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(tilt.y,turn.x,tilt.x),(timeCount*0.01f));
+        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.Euler(tilt.y,turn.x,tilt.x),(timeCount*speed));
         transform.Translate(Vector3.right * timeCount * speed * -right_left_Input);
         transform.Translate(Vector3.forward * timeCount * speed * -forward_backward_Input);
         //Debug.Log(timeCount);
