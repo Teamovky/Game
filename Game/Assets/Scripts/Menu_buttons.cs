@@ -9,10 +9,6 @@ public class Menu_buttons : MonoBehaviour
     {   
         SceneManager.LoadSceneAsync(1);
     }
-    public void Settings()
-    {
-
-    }
     public void Destroy()
     {
         Application.Quit();
