@@ -41,17 +41,25 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/KeepOnSurface.cs" />
+     <Compile Include="Assets/Scripts/CameraZoom.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/TerrainQualitySettings.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/SpawnInArea.cs" />
      <Compile Include="Assets/Scripts/Playermovement.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Example Data/Scripts/SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/2DTools/Scripts/Camera2DFollow.cs" />
+     <Compile Include="Assets/Scripts/Scout Camera.cs" />
+     <Compile Include="Assets/Scripts/Scout cube.cs" />
+     <Compile Include="Assets/Scripts/Trottle_UI.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Example Data/Scripts/PlayerHoverController.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/PlaceOnSurfaceAtStart.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/2DTools/Scripts/CircleMoverSample.cs" />
+     <Compile Include="Assets/Scripts/CameraSwitch.cs" />
      <Compile Include="Assets/Scripts/Playerrotation.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/TreeExplosion.cs" />
      <Compile Include="Assets/Tom&apos;s Terrain Tools/Scripts/ForceGrassDistanceInEditor.cs" />
+     <Compile Include="Assets/Scripts/Menu_buttons.cs" />
+     <Compile Include="Assets/Scripts/WaypointMover.cs" />
+     <Compile Include="Assets/Scripts/Waypoints.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Tom&apos;s Terrain Tools/Example Data/Terragen Sources/README.txt" />
