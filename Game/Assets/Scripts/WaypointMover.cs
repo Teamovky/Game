@@ -22,6 +22,10 @@ public class WaypointMover : MonoBehaviour
     //Direction to next waypoint
     private Vector3 directionToWaypoint;
 
+    public float startrotationAnglex = 0f;
+    public float startrotationAngley = 0f;
+    public float startrotationAnglez = 0f;
+
 
 
     // Start is called before the first frame update
@@ -54,6 +58,6 @@ public class WaypointMover : MonoBehaviour
 
         directionToWaypoint = (currentWaypoint.position - transform.position).normalized;
         roationGoal = Quaternion.LookRotation(directionToWaypoint);
-        transform.rotation = Quaternion.Slerp(transform.rotation, roationGoal * Quaternion.Euler(-90, 0, 0), rotateSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Slerp(transform.rotation, roationGoal * Quaternion.Euler(startrotationAnglex, startrotationAngley, startrotationAnglez), rotateSpeed * Time.deltaTime);
     }
 }

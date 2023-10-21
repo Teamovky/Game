@@ -7,6 +7,7 @@ public class Playerrotation : MonoBehaviour
     protected Vector2 turn;
     public float mouse_sens = 5f;
     private float mousey;
+    public GameObject cam1;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,12 @@ public class Playerrotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        turn.y += (Input.GetAxis("Mouse Y") * mouse_sens);
-        turn.y = Mathf.Clamp(turn.y,-90,90);
+        if (cam1.activeSelf) {
+            turn.y += (Input.GetAxis("Mouse Y") * mouse_sens);
+            turn.y = Mathf.Clamp(turn.y,-90,90);
 
-        transform.localRotation = Quaternion.Euler(-turn.y, 90,0);
+            transform.localRotation = Quaternion.Euler(-turn.y, 90,0);
+        }
     }
         
 }
