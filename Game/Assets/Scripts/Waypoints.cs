@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Creation of waypoints, for not random path
     public class waypoints : MonoBehaviour
     {
         [Range(0f,2f)]

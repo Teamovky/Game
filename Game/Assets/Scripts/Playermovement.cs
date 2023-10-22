@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Movement of FPV drone
 public class Playermovement : MonoBehaviour
 {
     //natáčení po x, z o 7.5 stupně
@@ -69,7 +70,7 @@ public class Playermovement : MonoBehaviour
             }
 
             turn.x += (Input.GetAxis("Mouse X") * mouse_sens);
-            // transform.localRotation = Quaternion.Euler(0, turn.x,0);
+            transform.localRotation = Quaternion.Euler(0, turn.x,0);
     
             if(jump_Input)
             {

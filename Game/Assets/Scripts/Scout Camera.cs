@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Scout drone sphere rotation
 public class ScoutCamera : MonoBehaviour
 {
     private Vector2 turn;
@@ -19,7 +20,7 @@ public class ScoutCamera : MonoBehaviour
     {
         if (cam2.activeSelf) {
             turn.x += Input.GetAxis("Mouse X");
-            transform.localRotation = Quaternion.Euler(0,turn.x,0);
+            transform.localRotation = Quaternion.Euler(0,0,turn.x);
         }
     }
 }

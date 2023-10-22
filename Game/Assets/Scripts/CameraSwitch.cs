@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
+//Switches camera view
 public class CameraSwitch : MonoBehaviour
 {
     public GameObject cam1;

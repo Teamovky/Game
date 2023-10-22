@@ -368,6 +368,7 @@
 "Assets/Scripts/Scout cube.cs"
 "Assets/Scripts/WaypointMover.cs"
 "Assets/Scripts/Waypoints.cs"
+"Assets/Scripts/WaypointsRandom.cs"
 "Assets/Tom's Terrain Tools/2DTools/Scripts/Camera2DFollow.cs"
 "Assets/Tom's Terrain Tools/2DTools/Scripts/CircleMoverSample.cs"
 "Assets/Tom's Terrain Tools/Example Data/Scripts/PlayerHoverController.cs"

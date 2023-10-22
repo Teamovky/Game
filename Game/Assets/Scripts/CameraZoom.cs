@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
+
+//Zooms camera
 public class CameraZoom : MonoBehaviour
 {
     public Camera cam;
