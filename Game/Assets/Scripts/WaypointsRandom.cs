@@ -5,8 +5,6 @@ using UnityEngine;
 //Assigned to parent object of all waypoint paths for random spawns, assigns starting location and movement on selected path
 public class WaypointsRandom : MonoBehaviour
 {
-    
-    public int NumberOfPaths = 2;
     public WaypointMover obj;
     
     // Start is called before the first frame update

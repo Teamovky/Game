@@ -1492,7 +1492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a35311159783d341a7d3c9fbdbea795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberOfPaths: 3
   obj: {fileID: 7423334782899643146}
 --- !u!1 &1504593824
 GameObject:
@@ -3069,7 +3068,7 @@ MonoBehaviour:
   startrotationAnglex: -90
   startrotationAngley: 0
   startrotationAnglez: 0
-  NumberOfPaths: 2
+  NumberOfPaths: 3
   SpawnNumber: 0
 --- !u!4 &7727431359660129540
 Transform:
