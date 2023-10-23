@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2520,8 +2520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebceedbb8534348269cae6d92fa22797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.025
   mouse_sens: 5
+  speed: 0.025
+  thrust: 0
   cam1: {fileID: 1504593824}
 --- !u!54 &1969353560380607219
 Rigidbody:
@@ -2532,7 +2533,7 @@ Rigidbody:
   m_GameObject: {fileID: 1161748442223169610}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 100
+  m_Drag: 1
   m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2545,7 +2546,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
