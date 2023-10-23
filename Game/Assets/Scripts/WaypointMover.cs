@@ -32,10 +32,18 @@ public class WaypointMover : MonoBehaviour
     [SerializeField] private int NumberOfPaths;
     public int SpawnNumber;
 
-
     // Start is called before the first frame update
     void Start()
     {
+        if (transform.GetComponent<MeshRenderer>() != null) {
+
+            transform.GetComponent<MeshRenderer>().enabled = true;
+            for (int i = 0; i < transform.childCount; i++) {
+
+                transform.GetChild(i).GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
+        
         SpawnNumber = Random.Range(0,NumberOfPaths);
         if (RandomSpawn) {
             //Set initial position to first waypoint

@@ -8,6 +8,7 @@ public class CameraSwitch : MonoBehaviour
 {
     public GameObject cam1;
     public GameObject cam2;
+    public GameObject cam3;
 
     void Update() {
 

@@ -362,6 +362,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CameraSwitch.cs"
 "Assets/Scripts/CameraZoom.cs"
+"Assets/Scripts/DetectTarget.cs"
 "Assets/Scripts/Playermovement.cs"
 "Assets/Scripts/Playerrotation.cs"
 "Assets/Scripts/Scout Camera.cs"
