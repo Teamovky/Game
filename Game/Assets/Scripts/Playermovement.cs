@@ -15,8 +15,7 @@ public class Playermovement : MonoBehaviour
     public float mouse_sens = 5f;
     private bool jump_Input;
     private float timeCount = 0.0f;
-    public float speed = .01f;
-
+    public float speed = .25f;
     public float thrust = 0f;
 
     // public GameObject cam1;
@@ -32,6 +31,7 @@ public class Playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // if (cam1.activeSelf) 
         // {
             right_left_Input = Input.GetAxis("Horizontal");
@@ -73,7 +73,7 @@ public class Playermovement : MonoBehaviour
 
             if(fall_Input && thrust >= -10)
             {
-                thrust -= .01f;
+                thrust -= 5f * Time.deltaTime;
             }
 
             turn.x += (Input.GetAxis("Mouse X") * mouse_sens);
@@ -81,7 +81,7 @@ public class Playermovement : MonoBehaviour
     
             if(jump_Input && thrust <= 10)
             {
-                thrust += .01f;
+                thrust += 5f * Time.deltaTime;
             }
 
             if(thrust < -1 || thrust > 1)
