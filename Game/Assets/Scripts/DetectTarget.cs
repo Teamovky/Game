@@ -1,12 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Threading;
 
 public class DetectTarget : MonoBehaviour
 {
 
- public GameObject target;
+    public GameObject target;
     public Camera cam;
+    public bool track = false;
+    [SerializeField] private RawImage crosshair;
+    [SerializeReference] private RawImage crosshairTrack;
+
+    void Start()
+    {
+        crosshair.enabled = true;
+        crosshairTrack.enabled = false;
+    }
 
     private bool IsVisible(Camera c, GameObject target)
     {
@@ -29,8 +40,17 @@ public class DetectTarget : MonoBehaviour
         if (IsVisible(cam,target) && Input.GetKey(KeyCode.Space))
         {
             Debug.Log("TARGET LOCKED");
+            track = true;
+            crosshair.enabled = false;
+            crosshairTrack.enabled = true;
+        }
+        
+        
+    
+        if (Input.GetKey(KeyCode.Escape) && track) {
+            track = false;
+            crosshair.enabled = true;
+            crosshairTrack.enabled = false;
         }
     }
-    
 }
-

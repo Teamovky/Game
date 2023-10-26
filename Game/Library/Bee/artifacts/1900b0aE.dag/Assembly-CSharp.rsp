@@ -367,6 +367,8 @@
 "Assets/Scripts/Playerrotation.cs"
 "Assets/Scripts/Scout Camera.cs"
 "Assets/Scripts/Scout cube.cs"
+"Assets/Scripts/ScoutUI.cs"
+"Assets/Scripts/Track.cs"
 "Assets/Scripts/WaypointMover.cs"
 "Assets/Scripts/Waypoints.cs"
 "Assets/Scripts/WaypointsRandom.cs"

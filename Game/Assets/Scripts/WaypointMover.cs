@@ -9,7 +9,7 @@ public class WaypointMover : MonoBehaviour
     [SerializeField] private waypoints waypoints;
     [SerializeField] private WaypointsRandom waypointsRandom;
 
-    [SerializeField] private float moveSpeed = 5f;
+    public float moveSpeedMax = 20f;
 
     [SerializeField] private float rotateSpeed = 4f;
 
@@ -31,6 +31,7 @@ public class WaypointMover : MonoBehaviour
 
     [SerializeField] private int NumberOfPaths;
     public int SpawnNumber;
+
 
     // Start is called before the first frame update
     void Start()
@@ -68,13 +69,13 @@ public class WaypointMover : MonoBehaviour
     void Update()
     {
         if (RandomSpawn) {
-            transform.position = Vector3.MoveTowards(transform.position, currentWaypoint.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, currentWaypoint.position, moveSpeedMax * Time.deltaTime);
             if (Vector3.Distance(transform.position, currentWaypoint.position) < distanceThershold) {
 
                 currentWaypoint = waypointsRandom.GetNextWaypoint(currentWaypoint);
             } 
         } else {
-             transform.position = Vector3.MoveTowards(transform.position, currentWaypoint.position, moveSpeed * Time.deltaTime);
+             transform.position = Vector3.MoveTowards(transform.position, currentWaypoint.position, moveSpeedMax * Time.deltaTime);
             if (Vector3.Distance(transform.position, currentWaypoint.position) < distanceThershold) {
 
                 currentWaypoint = waypoints.GetNextWaypoint(currentWaypoint);
