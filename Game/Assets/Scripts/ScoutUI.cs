@@ -14,6 +14,8 @@ public class ScoutUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI track;
     [SerializeField] private DetectTarget isON;
     [SerializeField] private GameObject cam;
+    [SerializeField] private TextMeshProUGUI zoom;
+    [SerializeField] private CameraZoom currentZoom;
     private float timer;
 
 private void Start() {
@@ -24,6 +26,8 @@ private void Start() {
 private void Update() {
     if (cam.activeSelf) {
         throttlePercentage.text = "THROTTLE: " + speedPercentage + "%";
+        zoom.text = "ZOOM: " + (100 - (Math.Round(((currentZoom.currentFOV-15) * 100)/45))) + "%";
+        Debug.Log(currentZoom.currentFOV);
 
         if (Input.GetKey(KeyCode.LeftShift)) {
 

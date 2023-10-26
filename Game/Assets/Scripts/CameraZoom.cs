@@ -9,6 +9,7 @@ public class CameraZoom : MonoBehaviour
     public Camera cam;
     public GameObject obj;
     public float zoomSpeed = 5f;
+    public float currentFOV;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,5 +29,7 @@ public class CameraZoom : MonoBehaviour
                 cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, 60f, zoomSpeed * Time.deltaTime);
             }
         }
+        currentFOV = cam.fieldOfView;
+        //Debug.Log(currentFOV);
     }
 }
