@@ -3,33 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Scout drone cube rotation, rotation angle limitation
-public class ScoutSphere : MonoBehaviour
+public class ScoutCube : MonoBehaviour
 {
     private Vector2 turn;
     public GameObject cam2;
-    public GameObject cube;
     [SerializeField] private DetectTarget isON;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        transform.rotation = Quaternion.Euler(180,0,0);
     }
 
     // Update is called once per frame
     void Update()
     {
        if (cam2.activeSelf && isON.track == false) {
-            turn.y -= Input.GetAxis("Mouse Y");
-            if (turn.y < -25f) {
-                turn.y = -25f;
+           turn.y -= Input.GetAxis("Mouse Y");
+            if (turn.y < 77f) {
+                turn.y = 77f;
             }
 
-            if (turn.y > 180f) {
-                turn.y = 180f;
+            if (turn.y > 250f) {
+                turn.y = 250f;
             }
 
-            transform.localRotation = Quaternion.Euler(Mathf.Clamp(turn.y,-25f,180f),0,0);
+            transform.localRotation = Quaternion.Euler(Mathf.Clamp(turn.y,77,250),0,0);
         }
     }
 }
