@@ -1,13 +1,4 @@
+*
 
-.DS_Store
-.vscode/*
-Assembly-CSharp-Editor.csproj
-Assembly-CSharp.csproj
-Game_back_up_2.sln
-Game.sln
-Library/*
-Logs/*
-Packages/*
-ProjectSettings/*
-URP Game.sln
-UserSettings/*
+!Assets/*
+!.gitignore
