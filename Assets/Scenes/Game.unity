@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 138248359}
   - component: {fileID: 138248358}
   - component: {fileID: 138248357}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas_player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,6 @@ GameObject:
   - component: {fileID: 544888278}
   - component: {fileID: 544888281}
   - component: {fileID: 544888280}
-  - component: {fileID: 544888282}
   - component: {fileID: 544888284}
   - component: {fileID: 544888285}
   m_Layer: 0
@@ -322,7 +321,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544888277}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.202}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2841}
   m_LocalScale: {x: 0.56672, y: 1, z: 1.7645398}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -330,7 +329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0497, y: 0.1187}
+  m_AnchoredPosition: {x: -0.0499, y: 0.0188}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!81 &544888280
@@ -359,7 +358,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -372,7 +371,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -380,7 +379,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -392,33 +391,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!54 &544888282
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544888277}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &544888284
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -739,36 +711,14 @@ GameObject:
   - component: {fileID: 1029410064}
   - component: {fileID: 1029410063}
   - component: {fileID: 1029410062}
-  - component: {fileID: 1029410061}
-  m_Layer: 0
+  - component: {fileID: 1029410065}
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1029410061
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029410060}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1029410062
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -829,11 +779,31 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 33.02645, y: 1, z: 33.197346}
+  m_LocalScale: {x: 33.02645, y: 1, z: 0.91096836}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!154 &1029410065
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029410060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 0}
+  m_EnableTreeColliders: 1
 --- !u!1 &1679514780
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +921,7 @@ GameObject:
   - component: {fileID: 1825071959}
   - component: {fileID: 1825071960}
   - component: {fileID: 1825071961}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text_throttle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1240,10 +1210,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8702703332124076768}
-  - component: {fileID: 8702703332124076772}
   - component: {fileID: 8702703332124076771}
   - component: {fileID: 8702703332124076770}
   - component: {fileID: 8702703332124076769}
+  - component: {fileID: 8702703332124076772}
+  - component: {fileID: 8702703332124076773}
   m_Layer: 0
   m_Name: FPVdron2
   m_TagString: Untagged
@@ -1306,7 +1277,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 1
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1339,11 +1310,24 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.4, y: 0.4, z: 0.9}
+  m_Center: {x: -0.05, y: -0.03, z: -0.2}
+--- !u!114 &8702703332124076773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326564443302228058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17e25b4d26184a8397f261a2a0fcf65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trottle: {fileID: 8702703332124076769}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
