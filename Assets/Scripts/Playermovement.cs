@@ -18,7 +18,7 @@ public class Playermovement : MonoBehaviour
     public float speed = .25f;
     public float thrust = 0f;
 
-    // public GameObject cam1;
+    public GameObject cam1;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +32,8 @@ public class Playermovement : MonoBehaviour
     void Update()
     {
         
-        // if (cam1.activeSelf) 
-        // {
+        if (cam1.activeSelf) 
+        {
             right_left_Input = Input.GetAxis("Horizontal");
             forward_backward_Input = Input.GetAxis("Vertical");
             fall_Input = Input.GetKey(KeyCode.LeftShift);
@@ -92,6 +92,6 @@ public class Playermovement : MonoBehaviour
             //Debug.Log(thrust);
 
             timeCount = timeCount + Time.deltaTime;
-        // }
+        }
     }
 }
